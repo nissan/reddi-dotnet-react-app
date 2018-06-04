@@ -15,9 +15,9 @@ class App extends Component {
       </Header> 
       <Text>
       To get started, edit 
-      <code> 
+      <span> <code> 
         {this.props.fileLocation} 
-      </code> and save to reload. 
+      </code></span> and save to reload. 
       </Text> 
     </Container>
     );

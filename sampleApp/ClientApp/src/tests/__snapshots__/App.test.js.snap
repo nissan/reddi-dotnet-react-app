@@ -22,9 +22,12 @@ exports[`matches snapshot 1`] = `
     className="css-svh8gb-⚡Text e146scqn4"
   >
     To get started, edit
-    <code>
-      src/components/App.js
-    </code>
+    <span>
+       
+      <code>
+        src/components/App.js
+      </code>
+    </span>
      and save to reload.
   </p>
 </div>
