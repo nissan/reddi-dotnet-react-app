@@ -13,6 +13,6 @@ module.exports = (baseConfig, env, defaultConfig) => {
     //     loader: require.resolve("ts-loader")
     //   });
     //   defaultConfig.resolve.extensions.push(".ts", ".tsx");
-    defaultConfig = injectBabelPlugin('babel-plugin-emotion', defaultConfig)
+    defaultConfig = injectBabelPlugin('babel-plugin-emotion', defaultConfig);
     return defaultConfig;
 };
