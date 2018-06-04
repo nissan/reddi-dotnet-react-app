@@ -63,6 +63,15 @@
     global "^4.3.2"
     prop-types "^15.6.1"
 
+"@storybook/addon-notes@^3.4.6":
+  version "3.4.6"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-notes/-/addon-notes-3.4.6.tgz#921e54abf550d97923bebc7c93c1ea4c3ec82984"
+  dependencies:
+    babel-runtime "^6.26.0"
+    marked "^0.3.17"
+    prop-types "^15.6.1"
+    util-deprecate "^1.0.2"
+
 "@storybook/addon-storyshots@^3.4.6":
   version "3.4.6"
   resolved "https://registry.yarnpkg.com/@storybook/addon-storyshots/-/addon-storyshots-3.4.6.tgz#0a428d27a4d02437181fd97495cdfb5a806181ba"
@@ -5614,7 +5623,7 @@ markdown-loader@^2.0.2:
     loader-utils "^1.1.0"
     marked "^0.3.9"
 
-marked@^0.3.9:
+marked@^0.3.17, marked@^0.3.9:
   version "0.3.19"
   resolved "https://registry.yarnpkg.com/marked/-/marked-0.3.19.tgz#5d47f709c4c9fc3c216b6d46127280f40b39d790"
 
