@@ -1,5 +1,5 @@
 Set-ExecutionPolicy Bypass -Scope Process -Force
-iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 RefreshEnv.cmd
 choco install -y dotnetcore-sdk vscode nvm yarn firacode
 RefreshEnv.cmd
@@ -16,5 +16,5 @@ create-react-app baseapp
 Move-Item -Path baseapp -Destination ClientApp -Force
 Set-Location -Path ClientApp
 yarn add react-router-dom prop-types emotion react-emotion
-yarn add -D react-app-rewired babel-plugin-emotion enzyme enzyme-adapter-react-16
+yarn add -D react-app-rewired babel-plugin-emotion react-test-renderer enzyme enzyme-adapter-react-16
 getstorybook 
