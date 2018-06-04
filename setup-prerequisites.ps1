@@ -16,5 +16,5 @@ create-react-app baseapp
 Move-Item -Path baseapp -Destination ClientApp -Force
 Set-Location -Path ClientApp
 yarn add react-router-dom prop-types emotion react-emotion
-yarn add -D react-app-rewired babel-plugin-emotion react-test-renderer enzyme enzyme-adapter-react-16
+yarn add -D react-app-rewired babel-plugin-emotion react-test-renderer enzyme enzyme-adapter-react-16 @storybook/addon-storyshots
 getstorybook 
