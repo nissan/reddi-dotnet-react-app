@@ -17,6 +17,7 @@ Specifically I added the packages that I believe make better rapid prototyping a
 4. [Optional] [Fira Code](https://github.com/tonsky/FiraCode) font which works nicely if you [enable ligatures in VSCode](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)
 
 # Quick setup of requirements
+If you already have the above tooling, want to set the tooling up on your own, or don't want to learn more about how the pieces are put together, skip this seciton and go straight to [Getting started](#getting-started)
 You can quickly setup the requirements by running the 
 ```
 setup-prerequisites.sh
@@ -27,14 +28,12 @@ setup-prerequisites.ps1
 ``` 
 on Windows in an Administrator PowerShell and that will download and install requirements for you, as well as create the skeleton application with the needed packages added. 
 
-There are a series of [gist files](https://gist.github.com/nissan/0b49d7524f0729e48e4e436d57533883) that show off the individually configured or additional files that are different from the generated template.
-
-Note: The *only* prompt you may get when running the `setup-prerequisite` script is at the point where **dotnet** tries to install the self-signed certificate to allow HTTPS connections when debugging the application locally.
+There are a series of [gist files](https://gist.github.com/nissan/0b49d7524f0729e48e4e436d57533883) that then show off the individually configured or additional files that are different from the default `create-react-app` files generated after running the `setup-prerequisites` script.
 
 If you'd like to copy my own VSCode customized settings as well in your editor, install the [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) plugin to VSCode and download my [cloudSettings gist](https://gist.github.com/nissan/1eebdf0c22e31598a8f279bb784f7eb8) as your own using `Settings Sync`.
 
 ## Getting started
-Once the project is cloned, run
+Clone the repository, and from the `SampleApp` directory, run
 ```
 dotnet run
 ```
