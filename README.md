@@ -38,13 +38,9 @@ If you'd like to copy my own VSCode customized settings as well in your editor, 
 ## Getting started
 Once the project is cloned, run
 ```
-dotnet restore
-```
-and then
-```
 dotnet run
 ```
-from within the SampleApp folder.
+from within the SampleApp folder. (This will automatically run `dotnet restore` to restore missing packages if required)
 
 To run Storybook, run 
 ```
