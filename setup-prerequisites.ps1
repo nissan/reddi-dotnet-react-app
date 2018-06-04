@@ -11,7 +11,7 @@ mkdir sampleApp
 Set-Location -Path sampleApp
 dotnet new react
 dotnet dev-certs https --trust
-Remove-Item -Path ClientApp -Force
+Remove-Item -Path ClientApp -Force -Recurse
 create-react-app baseapp
 Move-Item -Path baseapp -Destination ClientApp -Force
 Set-Location -Path ClientApp
