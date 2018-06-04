@@ -10,8 +10,6 @@ This template packs *alot* of modules in together, and tweaks the configuration 
 
 Specifically I added the packages that I believe make better rapid prototyping and testing possible when discovering *how* an application should behave for the target user and there is a lot of volatility in the expected front-end behaviour as requirements change or adjust based on feedback received from demoing the actual application interactions.
 
-The template
-
 # Requirements
 1. [ASP.Net Core 2.1 SDK](https://www.microsoft.com/net/download) installed
 2. [Node.js](https://nodejs.org/en) and the [create-react-app](https://github.com/facebook/create-react-app) generator
