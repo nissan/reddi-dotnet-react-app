@@ -1,6 +1,6 @@
 #!/bin/bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew install wget
+brew install wget watchman
 brew cask install dotnet-sdk visual-studio-code nvm
 brew tap caskroom/fonts
 brew cask install font-fira-code
