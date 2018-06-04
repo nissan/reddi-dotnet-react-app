@@ -11,4 +11,7 @@ There are a series of [gist files](https://gist.github.com/nissan/0b49d7524f0729
 
 # Quick setup of requirements
 You can quickly setup the requirements by running the `setup-prerequisites.sh` or `setup-prerequisites.ps1` that will download and install requirements for you. 
-If you'd like to copy my VSCode customized setup as well, install the [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) plugin to VSCode and download my [cloudSettings gist](https://gist.github.com/nissan/1eebdf0c22e31598a8f279bb784f7eb8) as your own using `Settings Sync`.
+
+Note: The *only* prompt you may get is at the point where dotnet tries to install the self-signed certificate to allow HTTPS connections when debugging the application locally.
+
+If you'd like to copy my own VSCode customized settings as well in your editor, install the [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) plugin to VSCode and download my [cloudSettings gist](https://gist.github.com/nissan/1eebdf0c22e31598a8f279bb784f7eb8) as your own using `Settings Sync`.
