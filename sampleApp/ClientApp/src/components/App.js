@@ -1,9 +1,7 @@
-import React, {
-  Component
-} from 'react';
 import PropTypes from 'prop-types';
+import React, { Component } from 'react';
 import logo from '../assets/images/logo.svg';
-import {Container, Header, Image, H1, Text} from './themes/DefaultTheme';
+import { Container, H1, Header, Image, Text } from './themes/DefaultTheme';
 
 class App extends Component {
   render() {

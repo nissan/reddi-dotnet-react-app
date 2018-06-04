@@ -1,16 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-
 import { storiesOf } from '@storybook/react';
-import { action } from '@storybook/addon-actions';
-import { linkTo } from '@storybook/addon-links';
-
-import { specs, describe, it } from 'storybook-addon-specifications';
-import renderer from "react-test-renderer";
 import { mount } from "enzyme";
 import expect from 'expect';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { describe, it, specs } from 'storybook-addon-specifications';
+import App from '../components/App';
 
-import App  from '../components/App';
+
+
 
 storiesOf('App', module)
     .add('default', () => {
