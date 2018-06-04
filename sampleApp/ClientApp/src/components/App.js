@@ -1,21 +1,37 @@
-import React, { Component } from 'react';
+import React, {
+  Component
+} from 'react';
+import PropTypes from 'prop-types';
 import logo from '../assets/images/logo.svg';
-import '../App.css';
+import {Container, Header, Image, H1, Text} from './themes/DefaultTheme';
 
 class App extends Component {
   render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+    return ( 
+    <Container center>
+      <Header>
+      <Image src={logo} alt="logo" />
+        <H1>{this.props.welcomeMessage}</H1> 
+      </Header> 
+      <Text>
+      To get started, edit 
+      <code> 
+        {this.props.fileLocation} 
+      </code> and save to reload. 
+      </Text> 
+    </Container>
     );
   }
+}
+
+App.propTypes = {
+  fileLocation: PropTypes.string.isRequired,
+  welcomeMessage: PropTypes.string
+}
+
+App.defaultProps = {
+  fileLocation: 'src/components/App.js',
+  welcomeMessage: "Welcome to React"
 }
 
 export default App;

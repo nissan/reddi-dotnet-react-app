@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
-import { shallow } from 'enzyme';
+import { mount } from 'enzyme';
 import App from '../components/App';
 
 
@@ -18,8 +18,9 @@ it ('matches snapshot', () => {
 });
 
 it("should render the welcome message", () => {
-  const welcomeMessage = "Welcome to React";
-  const wrapper = shallow(<App />); 
+  const welcomeMessage = "Welcome to React!";
+  //'shallow' will not full-render 'react-emotion' components, so use 'mount' to test
+  const wrapper = mount(<App welcomeMessage={welcomeMessage} />); 
   const text = wrapper.find("h1").text();
   expect(text).toEqual(welcomeMessage);
 });

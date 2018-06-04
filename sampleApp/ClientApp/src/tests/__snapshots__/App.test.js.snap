@@ -2,28 +2,28 @@
 
 exports[`matches snapshot 1`] = `
 <div
-  className="App"
+  className="css-twzzml-⚡Container e146scqn0"
 >
   <header
-    className="App-header"
+    className="css-1jpebxu-⚡Header e146scqn2"
   >
     <img
       alt="logo"
-      className="App-logo"
+      className="css-1yykcae-⚡Image e146scqn1"
       src="logo.svg"
     />
     <h1
-      className="App-title"
+      className="css-1ixffpw-⚡H1 e146scqn3"
     >
       Welcome to React
     </h1>
   </header>
   <p
-    className="App-intro"
+    className="css-svh8gb-⚡Text e146scqn4"
   >
-    To get started, edit 
+    To get started, edit
     <code>
-      src/App.js
+      src/components/App.js
     </code>
      and save to reload.
   </p>
