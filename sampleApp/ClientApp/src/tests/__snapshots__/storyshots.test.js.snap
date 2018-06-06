@@ -1,25 +1,50 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots App default 1`] = `
+.emotion-8 {
+  text-align: center;
+}
+
+.emotion-4 {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.emotion-0 {
+  -webkit-animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.emotion-2 {
+  font-size: 1.5em;
+}
+
+.emotion-6 {
+  font-size: large;
+}
+
 <div
-  className="css-twzzml-⚡Container e146scqn0"
+  className="emotion-8 emotion-9"
 >
   <header
-    className="css-1jpebxu-⚡Header e146scqn2"
+    className="emotion-4 emotion-5"
   >
     <img
       alt="logo"
-      className="css-1yykcae-⚡Image e146scqn1"
+      className="emotion-0 emotion-1"
       src="logo.svg"
     />
     <h1
-      className="css-1ixffpw-⚡H1 e146scqn3"
+      className="emotion-2 emotion-3"
     >
       Welcome to React
     </h1>
   </header>
   <p
-    className="css-svh8gb-⚡Text e146scqn4"
+    className="emotion-6 emotion-7"
   >
     To get started, edit
     <span>
@@ -28,64 +53,56 @@ exports[`Storyshots App default 1`] = `
         src/components/App.js
       </code>
     </span>
-     and save to reload.
+    and save to reload.
   </p>
 </div>
 `;
 
 exports[`Storyshots App with custom welcome message 1`] = `
-<div
-  className="css-twzzml-⚡Container e146scqn0"
->
-  <header
-    className="css-1jpebxu-⚡Header e146scqn2"
-  >
-    <img
-      alt="logo"
-      className="css-1yykcae-⚡Image e146scqn1"
-      src="logo.svg"
-    />
-    <h1
-      className="css-1ixffpw-⚡H1 e146scqn3"
-    >
-      Welcome with a different welcome message
-    </h1>
-  </header>
-  <p
-    className="css-svh8gb-⚡Text e146scqn4"
-  >
-    To get started, edit
-    <span>
-       
-      <code>
-        src/components/App.js
-      </code>
-    </span>
-     and save to reload.
-  </p>
-</div>
-`;
+.emotion-8 {
+  text-align: center;
+}
 
-exports[`Storyshots App with different welcome message 1`] = `
+.emotion-4 {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.emotion-0 {
+  -webkit-animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.emotion-2 {
+  font-size: 1.5em;
+}
+
+.emotion-6 {
+  font-size: large;
+}
+
 <div
-  className="css-twzzml-⚡Container e146scqn0"
+  className="emotion-8 emotion-9"
 >
   <header
-    className="css-1jpebxu-⚡Header e146scqn2"
+    className="emotion-4 emotion-5"
   >
     <img
       alt="logo"
-      className="css-1yykcae-⚡Image e146scqn1"
+      className="emotion-0 emotion-1"
       src="logo.svg"
     />
     <h1
-      className="css-1ixffpw-⚡H1 e146scqn3"
+      className="emotion-2 emotion-3"
     >
       Welcome with a different welcome message
     </h1>
   </header>
   <p
-    className="css-svh8gb-⚡Text e146scqn4"
+    className="emotion-6 emotion-7"
   >
     To get started, edit
     <span>
@@ -94,7 +111,7 @@ exports[`Storyshots App with different welcome message 1`] = `
         src/components/App.js
       </code>
     </span>
-     and save to reload.
+    and save to reload.
   </p>
 </div>
 `;
